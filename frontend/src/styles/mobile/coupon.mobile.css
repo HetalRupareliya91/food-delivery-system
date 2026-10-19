@@ -1,0 +1,13 @@
+/* Coupon screen - mobile layout */
+.coupon-page h1 { margin-top: 0; }
+
+@media (max-width: 768px) {
+  .coupon-page h1 { font-size: 1.4rem; }
+  .coupon-page .card-list { grid-template-columns: 1fr; gap: 12px; }
+  .coupon-page .card { padding: 12px; border-radius: 10px; }
+}
+
+@media (max-width: 420px) {
+  .coupon-page .card { font-size: 0.9rem; }
+  .coupon-page .field strong { display: block; }
+}
