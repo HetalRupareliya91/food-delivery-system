@@ -1,0 +1,13 @@
+/* Order screen - mobile layout */
+.order-page h1 { margin-top: 0; }
+
+@media (max-width: 768px) {
+  .order-page h1 { font-size: 1.4rem; }
+  .order-page .card-list { grid-template-columns: 1fr; gap: 12px; }
+  .order-page .card { padding: 12px; border-radius: 10px; }
+}
+
+@media (max-width: 420px) {
+  .order-page .card { font-size: 0.9rem; }
+  .order-page .field strong { display: block; }
+}
