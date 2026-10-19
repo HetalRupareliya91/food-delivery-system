@@ -1,0 +1,13 @@
+/* Refund screen - mobile layout */
+.refund-page h1 { margin-top: 0; }
+
+@media (max-width: 768px) {
+  .refund-page h1 { font-size: 1.4rem; }
+  .refund-page .card-list { grid-template-columns: 1fr; gap: 12px; }
+  .refund-page .card { padding: 12px; border-radius: 10px; }
+}
+
+@media (max-width: 420px) {
+  .refund-page .card { font-size: 0.9rem; }
+  .refund-page .field strong { display: block; }
+}
