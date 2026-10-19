@@ -1,0 +1,13 @@
+/* Invoice screen - mobile layout */
+.invoice-page h1 { margin-top: 0; }
+
+@media (max-width: 768px) {
+  .invoice-page h1 { font-size: 1.4rem; }
+  .invoice-page .card-list { grid-template-columns: 1fr; gap: 12px; }
+  .invoice-page .card { padding: 12px; border-radius: 10px; }
+}
+
+@media (max-width: 420px) {
+  .invoice-page .card { font-size: 0.9rem; }
+  .invoice-page .field strong { display: block; }
+}
