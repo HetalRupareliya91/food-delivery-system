@@ -1,0 +1,13 @@
+/* Address screen - mobile layout */
+.address-page h1 { margin-top: 0; }
+
+@media (max-width: 768px) {
+  .address-page h1 { font-size: 1.4rem; }
+  .address-page .card-list { grid-template-columns: 1fr; gap: 12px; }
+  .address-page .card { padding: 12px; border-radius: 10px; }
+}
+
+@media (max-width: 420px) {
+  .address-page .card { font-size: 0.9rem; }
+  .address-page .field strong { display: block; }
+}
