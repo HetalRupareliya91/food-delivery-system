@@ -1,0 +1,13 @@
+/* Rider screen - mobile layout */
+.rider-page h1 { margin-top: 0; }
+
+@media (max-width: 768px) {
+  .rider-page h1 { font-size: 1.4rem; }
+  .rider-page .card-list { grid-template-columns: 1fr; gap: 12px; }
+  .rider-page .card { padding: 12px; border-radius: 10px; }
+}
+
+@media (max-width: 420px) {
+  .rider-page .card { font-size: 0.9rem; }
+  .rider-page .field strong { display: block; }
+}
