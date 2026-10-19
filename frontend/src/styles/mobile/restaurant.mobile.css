@@ -1,0 +1,13 @@
+/* Restaurant screen - mobile layout */
+.restaurant-page h1 { margin-top: 0; }
+
+@media (max-width: 768px) {
+  .restaurant-page h1 { font-size: 1.4rem; }
+  .restaurant-page .card-list { grid-template-columns: 1fr; gap: 12px; }
+  .restaurant-page .card { padding: 12px; border-radius: 10px; }
+}
+
+@media (max-width: 420px) {
+  .restaurant-page .card { font-size: 0.9rem; }
+  .restaurant-page .field strong { display: block; }
+}
