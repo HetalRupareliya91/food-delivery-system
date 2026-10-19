@@ -1,0 +1,13 @@
+/* Review screen - mobile layout */
+.review-page h1 { margin-top: 0; }
+
+@media (max-width: 768px) {
+  .review-page h1 { font-size: 1.4rem; }
+  .review-page .card-list { grid-template-columns: 1fr; gap: 12px; }
+  .review-page .card { padding: 12px; border-radius: 10px; }
+}
+
+@media (max-width: 420px) {
+  .review-page .card { font-size: 0.9rem; }
+  .review-page .field strong { display: block; }
+}
