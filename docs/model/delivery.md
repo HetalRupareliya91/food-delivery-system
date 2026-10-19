@@ -1,0 +1,19 @@
+# Delivery - data model
+
+Source file: `backend/src/models/delivery.model.js`
+
+Part of the **backend** side of FoodDash.
+
+## API
+- `GET    /api/deliveries`      list (supports `page` and `limit`)
+- `GET    /api/deliveries/:id`  fetch one
+- `POST   /api/deliveries`      create (requires `orderId`, `riderId`)
+- `PUT    /api/deliveries/:id`  update
+- `DELETE /api/deliveries/:id`  delete
+
+## Fields
+- `orderId`
+- `riderId`
+- `status`
+- `eta`
+
