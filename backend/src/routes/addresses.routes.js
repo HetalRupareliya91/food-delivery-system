@@ -1,0 +1,14 @@
+// Address routes - mounted automatically at /api/addresses
+const { Router } = require('express');
+const controller = require('../controllers/address.controller');
+const { validateCreate } = require('../validators/address.validator');
+
+const router = Router();
+
+router.get('/', controller.list);
+router.get('/:id', controller.get);
+router.post('/', validateCreate, controller.create);
+router.put('/:id', controller.update);
+router.delete('/:id', controller.remove);
+
+module.exports = router;
